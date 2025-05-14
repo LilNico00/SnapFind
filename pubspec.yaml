@@ -14,7 +14,7 @@ dependencies:
   firebase_core: ^2.14.0
   cloud_firestore: ^4.14.0
   intl: ^0.18.1
-  http: 0.13.6
+  http: ^0.13.6
   cupertino_icons: ^1.0.6
   logger: ^1.0.0
 
@@ -42,7 +42,7 @@ flutter:
 dependency_overrides:
   meta: any
 
-# Aggiunta per Codemagic
+# Aggiunta per Codemagic - Supporto iOS
 flutter_intl:
   enabled: true
 
@@ -57,3 +57,8 @@ flutter_launcher_icons:
   android: true
   ios: true
   image_path: "assets/icons/app_icon.png"
+
+# Aggiunta per evitare problemi con Codemagic
+flutter_build:
+  - ios
+  - android
