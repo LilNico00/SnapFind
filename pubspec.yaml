@@ -14,7 +14,7 @@ dependencies:
   firebase_core: ^2.14.0
   cloud_firestore: ^4.14.0
   intl: ^0.18.1
-  http: ^0.15.6
+  http: ^0.15.0
   cupertino_icons: ^1.0.6
   logger: ^1.0.0
 
@@ -41,3 +41,19 @@ flutter:
 
 dependency_overrides:
   meta: any
+
+# Aggiunta per Codemagic
+flutter_intl:
+  enabled: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icons/app_icon_foreground.png"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
