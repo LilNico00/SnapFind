@@ -1,0 +1,43 @@
+name: snapfind
+description: A minimal and aesthetic product scanner app for store inventory.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.7+3
+  shared_preferences: ^2.2.2
+  file_selector: ^0.8.2
+  firebase_core: ^2.14.0
+  cloud_firestore: ^4.14.0
+  intl: ^0.18.1
+  http: ^0.15.6
+  cupertino_icons: ^1.0.6
+  logger: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Assets - Cartelle delle immagini, icone e font
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  # Fonts - Famiglia Roboto
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+
+dependency_overrides:
+  meta: any

@@ -1,0 +1,44 @@
+{
+  "piatti ceramica verde": {
+    "code": "4578/049/250",
+    "price": "12,99 EUR",
+    "store": 5,
+    "warehouse": 12,
+    "image": "assets/inventory_images/piatti ceramica verde.jpg"
+  },
+  "piatto ceramica verde barcode": {
+    "code": "4578/049/251",
+    "price": "12,99 EUR",
+    "store": 6,
+    "warehouse": 10,
+    "image": "assets/inventory_images/piatto ceramica verde barcode.jpg"
+  },
+  "tavolo": {
+    "code": "3210/002/100",
+    "price": "89,99 EUR",
+    "store": 2,
+    "warehouse": 4,
+    "image": "assets/inventory_images/tavolo.jpg"
+  },
+  "tazza barcode": {
+    "code": "1111/222/333",
+    "price": "6,99 EUR",
+    "store": 7,
+    "warehouse": 14,
+    "image": "assets/inventory_images/tazza barcode.jpg"
+  },
+  "vasi": {
+    "code": "1308/011/250",
+    "price": "9,99 EUR",
+    "store": 8,
+    "warehouse": 20,
+    "image": "assets/inventory_images/vasi.jpg"
+  },
+  "vasi barcode": {
+    "code": "1308/011/251",
+    "price": "9,99 EUR",
+    "store": 5,
+    "warehouse": 16,
+    "image": "assets/inventory_images/vasi barcode.jpg"
+  }
+}
