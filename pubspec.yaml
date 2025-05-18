@@ -22,27 +22,20 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.1
+  build_runner: ^2.4.5  # Aggiunto per risolvere l'errore
 
 flutter:
   uses-material-design: true
 
-  # Assets - Cartelle delle immagini, icone e font
+  # Assets - Cartelle delle immagini e icone
   assets:
     - assets/images/
     - assets/icons/
-    - assets/fonts/
-
-  # Fonts - Famiglia Roboto
-  fonts:
-    - family: Roboto
-      fonts:
-        - asset: assets/fonts/Roboto-Regular.ttf
-        - asset: assets/fonts/Roboto-Bold.ttf
 
 dependency_overrides:
   meta: any
 
-# Aggiunta per Codemagic - Supporto iOS
+# Configurazioni aggiuntive per Codemagic
 flutter_intl:
   enabled: true
 
@@ -57,8 +50,3 @@ flutter_launcher_icons:
   android: true
   ios: true
   image_path: "assets/icons/app_icon.png"
-
-# Aggiunta per evitare problemi con Codemagic
-flutter_build:
-  - ios
-  - android
